@@ -80,6 +80,8 @@ programmer_hash.merge(:yukihiro_matsumoto => {:known_for => "Ruby", :languages =
 end
 
 def changing_alan
+	programmer_hash[:alan_kay][:known_for] = "GUI"
+
 	programmer_hash =
  		{
         :grace_hopper => {
@@ -95,7 +97,6 @@ def changing_alan
           :languages => ["C"]
         }
      }
-		 programmer_hash[:alan_kay][:known_for] = "GUI"
 
 
 end
